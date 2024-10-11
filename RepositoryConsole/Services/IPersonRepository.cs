@@ -18,9 +18,6 @@ namespace RepositoryConsole.Services
 
         // Update
         void Update(Person person);
-
-        // Delete
-        void Delete(int id);
     }
 
 }

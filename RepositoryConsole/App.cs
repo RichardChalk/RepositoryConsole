@@ -50,8 +50,8 @@ namespace RepositoryConsole
             Console.WriteLine($"Id: {updatedPerson.Id}, Name: {updatedPerson.Name}");
 
             // Delete
-            Console.WriteLine("\nDeleting Person with Id = 1");
-            repository.Delete(1);
+            // Console.WriteLine("\nDeleting Person with Id = 1");
+            
 
             // Read All After Deletion
             Console.WriteLine("\nAll Persons After Deletion:");

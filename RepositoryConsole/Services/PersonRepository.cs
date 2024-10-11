@@ -36,15 +36,6 @@ namespace RepositoryConsole.Services
                 existingPerson.Name = person.Name;
             }
         }
-
-        public void Delete(int id)
-        {
-            var person = GetById(id);
-            if (person != null)
-            {
-                _people.Remove(person);
-            }
-        }
     }
 
 }
