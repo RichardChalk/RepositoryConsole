@@ -54,12 +54,7 @@ namespace RepositoryConsole
             
 
             // Read All After Deletion
-            Console.WriteLine("\nAll Persons After Deletion:");
-            foreach (var person in repository.GetAll())
-            {
-                Console.WriteLine($"Id: {person.Id}, Name: {person.Name}");
-            }
-
+           
             Console.ReadLine();
         }
     }
