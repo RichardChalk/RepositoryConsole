@@ -13,12 +13,12 @@ namespace RepositoryConsole
         public void Run() 
         {
             // Dependency Injection borde användas här!
-            IPersonRepository repository = new PersonRepository();
+            IRepository repository = new PersonRepository();
 
             // Vi kan byta ut vår repository som vi vill!
             // Så länge den implmenterar samma Interface
             // Plug & Play baby!
-            // IPersonRepository repository = new PersonRepositoryNew();
+            // IRepository repository = new PersonRepositoryNew();
 
             // Nu har vi tagit bort ALL business logik från vår App klass
             // Vi anropar istället vår repository! :)
