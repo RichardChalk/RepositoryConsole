@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace RepositoryConsole.Services
 {
-    public class PersonRepositoryNew : IPersonRepository
+    public class PersonRepositoryNew : IRepository
     {
         private readonly List<Person> _people = new List<Person>();
         private int _nextId = 1;

@@ -7,7 +7,7 @@ using RepositoryConsole.Models;
 
 namespace RepositoryConsole.Services
 {
-    public interface IPersonRepository
+    public interface IRepository
     {
         // Create
         void Add(Person person);
